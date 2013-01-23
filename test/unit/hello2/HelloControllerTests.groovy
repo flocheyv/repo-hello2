@@ -12,6 +12,7 @@ import org.junit.*
 class HelloControllerTests {
 
     void testSomething() {
-       fail "Implement me"
+       controller.index()
+		assertEquals 'hello', controller.response.contentAsString
     }
 }
