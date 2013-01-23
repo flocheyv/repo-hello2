@@ -221,7 +221,7 @@ while true; do
     break
   fi
 
-  CMD_LINE_ARGS="$CMD_LINE_ARGS $1 --non-interactive"
+  CMD_LINE_ARGS="$CMD_LINE_ARGS $1"
   shift
 done
 

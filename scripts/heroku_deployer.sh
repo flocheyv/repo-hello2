@@ -31,7 +31,7 @@
 #TODO Add a CLI checking
 
 #HEROKU API Token export because the authentication mechanism search for this environment variable
-export HEROKU_API_KEY=133596e7adb8cd7353abb843c80293f48e7a4a7f
+export HEROKU_API_KEY=3d9578ec2b0748766cb50952d03cd37fd79c0df5
 
 #Heroku installation mainly based on the official script (https://toolbelt.heroku.com/install.sh)
 HEROKU_HOME=`pwd`/heroku
@@ -62,7 +62,7 @@ yes | heroku keys:add
 
 
 #We define the Heroku application git remote repository
-heroku git:remote -a repo-hello2
+heroku git:remote -a gentle-fortress-9035
 
 #Finally, we can deploy using Git
 #Heroku Git-based deployment (https://devcenter.heroku.com/articles/git)
